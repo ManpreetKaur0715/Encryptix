@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f8ff;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #ff006a;
+        }
+
+        header {
+            background: #46a4b4;
+            color: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #ffffff00;
+        }
+
+        #about img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid #ff0000;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills li {
+            background: #4682b4;
+            color: #fff;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+        }
+
+        #resume a {
+            display: block;
+            text-align: center;
+            background: #ff4500;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            max-width: 200px;
+            margin: 1rem auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease-in-out;
+        }
+
+        #resume a:hover {
+            background: #ff6347;
+        }
+
+        #contact a {
+            color: #4682b4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #4682b4;
+            color: #ffffff05;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            .project img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Manpreet Kaur</h1>
+        <p>I'm a driven and passionate college student who is really interested in java and full stack web development. I enjoy working in groups, and I can't wait to put my developing knowledge and abilities to use in practical situations. I constantly aim for greatness and am looking for ways to learn and develop, whether it is through extracurricular activities or academic assignments. Having a solid background in my interested fields and also a NSS(National Service Scheme) volunteer , I'm eager to bring my enthusiasm and originality to worthwhile projects.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="About me :">
+        <h2>About Me</h2>
+        <img src="manniresumepic.jpg" alt="Manpreet Kaur" height="400px" width="300px">
+        <p>Pursuing BTech in Computer Science branch at Guru Tegh Bahadur Institute Of Technology , Frontend Developer , learning DSA in java and Generaive AI.<br>
+            I am good at academic pursuits, demonstrating exceptional dedication and outstanding performance throughout my college education till today. My commitment to learning and excellence has set my apart as a distinguished and accomplished student.
+            Proficient in Java and C++ programming languages. Experienced in developing web applications and optimizing algorithms. Strong problem-solving abilities, effective in team collaboration, and adept at using Git and Docker.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills :</h2>
+        <ul>
+            <li>Full Stack Web Development</li>
+            <li>C Language</li>
+            <li>Java Lnaguage</li>
+            <li>Data Structure</li>
+            <li>Database Management System</li>
+            <li>CPP along with OOPS</li>
+            <li>Learning DSA in java</li>
+            <li>A little knowledge about cloud computing and Generative AI</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects :</h2>
+        <div class="project">
+            <h3>Cloud Platform Job Simulation</h3>
+            <img src="Screenshot (3274).png" alt="Project 1">
+            <p>I had completed Cloud Computing Job Simulation on Forage .
+                In the simulation :
+                * Completed a job simulation as a CCE at Verizon and responsible for assessing security and suggesting improvements.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume :</h2>
+        <a href="Screenshot (3275).png" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact :</h2>
+        <p>Email: <a href="mailto:your-email@example.com"> kmanpreet0150@gmail.com</a></p>
+        <p>Phone: 8700459105</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Manpreet Kaur. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
